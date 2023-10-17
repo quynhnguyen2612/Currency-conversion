@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="Index.css">
+
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Amount</th>
+            <th>From Currency</th>
+            <th>To Currency</th>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="Amount">
+            </td>
+            <td>
+                <select  id="From">
+                <option value="1">Việt Nam</option>
+                <option value="23000">Hoa Kỳ</option>
+                </select>
+            </td>
+            <td>
+                <select  id="To">
+                <option value="1">Việt Nam</option>
+                <option value="23000">Hoa Kỳ</option>
+                </select>
+            </td>
+            <td><button id="convert" onclick="convert()">Convert</button>
+            </td>
+        </tr>
+    </table>
+    <p id="result"></p>
+    <script src="Index.js"></script>
+</body>
+</html>
